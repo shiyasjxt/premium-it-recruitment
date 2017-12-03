@@ -1,0 +1,35 @@
+<style type="text/css">
+    @import url("/media/premium-it-recruitment/css/job-ad-template.css");</style>
+    <script type="text/javascript" src="/media/premium-it-recruitment/js/job-ad-template.js"></script>
+    <div class="job-ad-mini" id="job-ad-template" itemscope="" itemtype="http://schema.org/JobPosting">
+        <div id="job-ad-header">
+            <h2>
+                <a href="http://www.premiumitrecruitment.com.au/" target="_blank">Premium IT Recruitment</a></h2>
+        </div>
+        <div id="job-ad-content">
+            <br />
+            <h2 itemprop="title">
+                {JobName}</h2>
+            <p>
+                <strong>Location:</strong> <span itemprop="jobLocation" itemscope="" itemtype="http://schema.org/Place"> <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"> <span itemprop="addressLocality">{SiteAreaName}</span> &gt; <span itemprop="addressRegion">{SiteLocationName}</span> </span> </span></p>
+            <br />
+            <strong>Worktype:</strong> <span itemprop="employmentType">{SiteWorkTypeName}</span><br />
+            <strong>Salary:</strong> <span itemprop="baseSalary">{SalaryLowerBand} to {SalaryUpperBand}</span><br />
+            <strong>Profession / Role:</strong> <span itemprop="occupationalCategory">{SiteProfessionName} &gt; {SiteRoleName}</span>
+            <p>
+                <strong>Employer:</strong> <span itemprop="hiringOrganization" itemscope="" itemtype="http://schema.org/Organization"> <span itemprop="name">{CompanyName}</span> </span></p>
+            <p itemprop="description">
+                &nbsp;</p>
+            <h2>
+                <strong>Description:</strong></h2>
+            <span itemprop="responsibilities">{FullDescription}</span>
+            <p>
+                <strong>Contact:</strong> {ContactDetails}<br />
+                <strong>Date Posted:</strong> <span itemprop="datePosted">{DatePosted}</span></p>
+        </div>
+        <div id="job-ad-footer">
+            <a href="http://www.premiumitrecruitment.com.au/" target="_blank">www.premiumitrecruitment.com.au</a></div>
+    </div>
+    <p>
+        &nbsp;</p>
+    
